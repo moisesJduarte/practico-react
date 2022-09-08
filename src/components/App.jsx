@@ -1,9 +1,13 @@
 import React from 'react';
+import Layout from '../containers/Layout';
+import Login from '../containers/Login';
 import '../styles/globla.css';
 
 const App = () => {
     return (
-        <h1>Hola Mundo bienvenido!</h1>
+        <Layout>
+            <Login />
+        </Layout>
     );
 } 
 
