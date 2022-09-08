@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/globla.scss';
+import '../styles/globla.css';
 
 const App = () => {
     return (
