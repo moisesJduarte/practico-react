@@ -2,7 +2,7 @@ import React from 'react'
 
 const Confirm = () => {
     return ( 
-        <div className="login">
+        <div className="Confirm">
     <div className="form-container">
       <img src="./logos/logo_yard_sale.svg" alt="logo" className="logo" />
 
