@@ -1,25 +1,25 @@
 import React from 'react';
-import '../styles/CreateAccount.scss';
+import '@styles/MyAccount.scss';
 
-const CreateAccount = () => {
+const MyAccount = () => {
 	return (
-		<div className="CreateAccount">
-			<div className="CreateAccount-container">
+		<div className="MyAccount">
+			<div className="MyAccount-container">
 				<h1 className="title">My account</h1>
 				<form action="/" className="form">
 					<div>
 						<label for="name" className="label">Name</label>
-						<input type="text" id="name" placeholder="Teff" className="input input-name" />
+						<p className="value">Camila Yokoo</p>
 						<label for="email" className="label">Email</label>
-						<input type="text" id="email" placeholder="Gladmd19@gmail.com" className="input input-email" />
+						<p className="value">camilayokoo@gmail.com</p>
 						<label for="password" className="label">Password</label>
-						<input type="password" id="password" placeholder="*********" className="input input-password" />
+						<p className="value">*********</p>
 					</div>
-					<input type="submit" value="Create" className="primary-button login-button" />
+					<input type="submit" value="Edit" className="secondary-button login-button" />
 				</form>
 			</div>
 		</div>
 	);
 }
 
-export default CreateAccount;
+export default MyAccount;
