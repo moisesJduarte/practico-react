@@ -1,11 +1,11 @@
 import React from 'react';
-import '@styles/SendEmail.scss';
+import '@styles/Confirm.scss';
 import logo from '@logos/logo_yard_sale.svg';
 import email from '@icons/email.svg';
 
-const SendEmail = () => {
+const Confirm = () => {
 	return (
-		<div className="SendEmail">
+		<div className="Confirm">
 			<div className="form-container">
 				<img src={logo} alt="logo" className="logo" />
 				<h1 className="title">Email has been sent!</h1>
@@ -23,4 +23,4 @@ const SendEmail = () => {
 	);
 }
 
-export default SendEmail;
+export default Confirm;
