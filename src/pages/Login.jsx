@@ -3,7 +3,7 @@ import '@styles/Login.scss';
 import logo from '@logos/logo_yard_sale.svg'
 
 const Login = () => {
-	const form = useRef(null);
+	const form = useRef(null); //no se esta inicializando con ningun elemento
 
 	const handleSubmit = (event) => {
 		event.preventDefault();
@@ -12,7 +12,7 @@ const Login = () => {
 			usename: formData.get('email'),
 			password: formData.get('password')
 		}
-		console.log(data);
+		console.log(data)
 	}
 
 	return (
