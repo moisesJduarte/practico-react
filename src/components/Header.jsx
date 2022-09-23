@@ -47,7 +47,7 @@ const Header = () => {
 					</li>
 					<li className="navbar-shopping-cart">
 						<img src={shoppingCart} alt="shopping cart" />
-						<div>{state.cart.length > 0 ? state.cart.length : null }</div>
+						{state.cart.length > 0 ? <div>{state.cart.length}</div> : null }
 					</li>
 				</ul>
 			</div>
