@@ -3,7 +3,7 @@ import '@styles/Header.scss';
 import Menu from '@components/Menu';
 import MyOrder from '../containers/MyOrder';
 import menu from '@icons/icon_menu.svg';
-import logo from '@GladMD-1png';
+import logo from '@logos/logo_yard_sale.svg';
 import AppContext from '../context/AppContext'; 
 import shoppingCart from '@icons/icon_shopping_cart.svg';
 
